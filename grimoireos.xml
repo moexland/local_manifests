@@ -9,5 +9,5 @@
   <remove-project name="hardened_malloc"/>
   <project name="hardened_malloc" path="external/hardened_malloc" remote="moexland" revision="b1e9b2a4d2063e808ad6e1ff7583a31402e15238" upstream="refs/heads/17" dest-branch="refs/heads/17"/>
 
-  <project name="mdevtool" path="vendor/mdevtool" remote="moexland" revision="c8d76eb860f62734caf4bf3743296a1be0b2326c" upstream="refs/heads/17" dest-branch="refs/heads/17"/>
+  <project name="mdevtool" path="vendor/mdevtool" remote="moexland" revision="51da4235ac1c56b9d86e61fb5ab0a9bc9ead53e7" upstream="refs/heads/17" dest-branch="refs/heads/17"/>
 </manifest>
