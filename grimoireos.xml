@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- GrimoireOS on top of GrapheneOS 2026110200 (repo init -b refs/tags/2026110200). -->
+<!-- GrimoireOS on top of GrapheneOS 2026111800 (repo init -b refs/tags/2026111800). -->
 <manifest>
   <remote name="moexland" fetch="https://github.com/moexland/"/>
 

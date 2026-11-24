@@ -14,7 +14,7 @@ GrimoireOS stands on two upstreams: the system comes from GrapheneOS's source, w
 
 | 上游 \| Upstream | 版本 \| Version |
 |---|---|
-| GrapheneOS | `2026110200` |
+| GrapheneOS | `2026111800` |
 | 原厂固件 \| Stock firmware | `RedMagicOS11.0.23MR1` |
 
 原厂固件的vendor构建指纹是`REDMAGIC/NX809J/NX809J:16/BQ2A.250705.001-BP2A.250605.031.A3/20260317.233524:user/release-keys`，装好GrimoireOS后`ro.vendor.build.fingerprint`仍是这个值。mdevtool按哈希核对这份固件里的镜像，换用别的原厂版本须先更新它的输入清单。
@@ -28,7 +28,7 @@ The vendor build fingerprint of the stock firmware is `REDMAGIC/NX809J/NX809J:16
 First initialise the source tree at the GrapheneOS tag named in the comment at the top of `grimoireos.xml`, then put this repository in `.repo/local_manifests` and sync:
 
 ```bash
-repo init -u https://github.com/GrapheneOS/platform_manifest.git -b refs/tags/2026110200
+repo init -u https://github.com/GrapheneOS/platform_manifest.git -b refs/tags/2026111800
 git clone -b 17 https://github.com/moexland/local_manifests.git .repo/local_manifests
 repo sync -j8
 ```
